@@ -1,0 +1,9 @@
+{%extends 'core/base.html'%} 
+
+{%block title%} Merchant Admin| {%endblock%}
+{%block content%}
+<div class="">
+  <h1 class="title">Merchant admin -{{merchant.name}}</h1>
+  <a href="{% url 'become_merchant' %}" class="button is-danger is-uppercase">Log out</a>
+</div>
+{%endblock%}
