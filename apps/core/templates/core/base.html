@@ -39,9 +39,9 @@
         <h3 class="is-size-4 mb4">students hustle</h3>
         
     {% if request.user.is_authenticated %}
-        <a href="{% url 'merchant_admin' %}">Vendor admin</a>
+        <a href="{% url 'merchant_admin' %}">Merchant admin</a>
     {% else %}
-        <a href="{% url 'become_merchant' %}">Become vendor</a>
+        <a href="{% url 'become_merchant' %}">Become Merchant</a>
     {% endif %}
     </footer>
 </body>
